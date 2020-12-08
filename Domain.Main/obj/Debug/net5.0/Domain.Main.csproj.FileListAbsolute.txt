@@ -1,0 +1,12 @@
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\bin\Debug\net5.0\Domain.Main.deps.json
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\bin\Debug\net5.0\Domain.Main.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\bin\Debug\net5.0\ref\Domain.Main.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\bin\Debug\net5.0\Domain.Main.pdb
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.csprojAssemblyReference.cache
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.AssemblyInfoInputs.cache
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.AssemblyInfo.cs
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\ref\Domain.Main.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\Domain.Main\obj\Debug\net5.0\Domain.Main.pdb

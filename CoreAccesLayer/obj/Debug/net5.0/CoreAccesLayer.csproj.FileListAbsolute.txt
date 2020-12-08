@@ -1,0 +1,15 @@
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\bin\Debug\net5.0\CoreAccesLayer.deps.json
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\bin\Debug\net5.0\CoreAccesLayer.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\bin\Debug\net5.0\ref\CoreAccesLayer.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\bin\Debug\net5.0\CoreAccesLayer.pdb
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.csprojAssemblyReference.cache
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.AssemblyInfoInputs.cache
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.AssemblyInfo.cs
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\ref\CoreAccesLayer.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.pdb
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\bin\Debug\net5.0\PlumbingProps.dll
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\bin\Debug\net5.0\PlumbingProps.pdb
+E:\PROYECTOS\BaseGround .NetCoreArquitectura\CoreAccesLayer\obj\Debug\net5.0\CoreAccesLayer.csproj.CopyComplete
