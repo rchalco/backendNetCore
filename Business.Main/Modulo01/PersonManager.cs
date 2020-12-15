@@ -89,7 +89,7 @@ namespace Business.Main.Modulo01
                 //Logica del negocio
                 response.ListEntities =  repository.GetDataByProcedure<PersonReport>("\"getPersons\"", name);
                 response.State = ResponseType.Success;
-                response.Message = "La persona fue eliminada correctamente";                
+                response.Message = "Personas obtenidas correctamente";                
             }
             catch (Exception ex)
             {
