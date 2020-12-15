@@ -5,20 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PlumbingProps\PlumbingProps.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="DBContexts\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0" />
-    <PackageReference Include="Npgsql" Version="4.1.5" />
-    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="5.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Npgsql" Version="5.0.1.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.1" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL.Design" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlumbingProps\PlumbingProps.csproj" />
   </ItemGroup>
 
 </Project>

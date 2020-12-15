@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CoreAccesLayer.DbContexts
+#nullable disable
+
+namespace Business.Main.DbContextSample
 {
     public partial class Person
     {

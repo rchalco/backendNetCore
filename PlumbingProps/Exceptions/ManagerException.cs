@@ -10,8 +10,9 @@ namespace PlumbingProps.Exceptions
     {
         public string ProcessException(Exception ex)
         {
-            string resul = string.Empty;
-            return resul;
+            throw new NotImplementedException();
+            /*string resul = string.Empty;
+            return resul;*/
         }
     }
 }

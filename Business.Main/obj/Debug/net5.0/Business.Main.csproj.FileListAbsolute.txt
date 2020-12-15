@@ -36,3 +36,6 @@ E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\obj\Debug\net5.0\Bus
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\obj\Debug\net5.0\Business.Main.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\obj\Debug\net5.0\ref\Business.Main.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\obj\Debug\net5.0\Business.Main.pdb
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\bin\Debug\net5.0\Business.Main.runtimeconfig.json
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\bin\Debug\net5.0\Business.Main.runtimeconfig.dev.json
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\obj\Debug\net5.0\Business.Main.genruntimeconfig.cache

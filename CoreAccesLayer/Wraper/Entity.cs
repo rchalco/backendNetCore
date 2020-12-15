@@ -5,18 +5,26 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Core.Base
+namespace CoreAccesLayer.Wraper
 {
+    [DataContract]
     public enum StateEntity
     {
+        [EnumMember]
         none = 0,
+        [EnumMember]
         add = 1,
+        [EnumMember]
         modify = 2,
+        [EnumMember]
         remove = 3
     }
     [DataContract]
-    public abstract class Entity
+    public class Entity<T> where T : class, new()
     {
+        [DataMember]
         public StateEntity stateEntity { get; set; }
+        [DataMember]
+        public T EntityDB { get; set; }
     }
 }

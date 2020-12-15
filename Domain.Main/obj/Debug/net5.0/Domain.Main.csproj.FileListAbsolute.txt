@@ -22,3 +22,8 @@ E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\obj\Debug\net5.0\Domai
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\obj\Debug\net5.0\Domain.Main.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\obj\Debug\net5.0\ref\Domain.Main.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\obj\Debug\net5.0\Domain.Main.pdb
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\bin\Debug\net5.0\CoreAccesLayer.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\bin\Debug\net5.0\PlumbingProps.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\bin\Debug\net5.0\CoreAccesLayer.pdb
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\bin\Debug\net5.0\PlumbingProps.pdb
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Domain.Main\obj\Debug\net5.0\Domain.Main.csproj.CopyComplete

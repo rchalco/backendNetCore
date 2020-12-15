@@ -2,13 +2,13 @@
   "version": 3,
   "targets": {
     "net5.0": {
-      "Microsoft.EntityFrameworkCore/5.0.0": {
+      "Microsoft.EntityFrameworkCore/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.0",
-          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.1",
+          "Microsoft.EntityFrameworkCore.Analyzers": "5.0.1",
           "Microsoft.Extensions.Caching.Memory": "5.0.0",
-          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1",
           "Microsoft.Extensions.Logging": "5.0.0",
           "System.Collections.Immutable": "5.0.0",
           "System.ComponentModel.Annotations": "5.0.0",
@@ -21,7 +21,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/5.0.0": {
+      "Microsoft.EntityFrameworkCore.Abstractions/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -30,7 +30,7 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/5.0.0": {
+      "Microsoft.EntityFrameworkCore.Analyzers/5.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -39,10 +39,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
+      "Microsoft.EntityFrameworkCore.Relational/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.1",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "compile": {
@@ -105,7 +105,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "Microsoft.Extensions.DependencyInjection/5.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
@@ -250,31 +250,40 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Npgsql/4.1.5": {
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "Npgsql/5.0.1.1": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.6.0"
         },
         "compile": {
-          "lib/netcoreapp3.0/Npgsql.dll": {}
+          "lib/net5.0/Npgsql.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp3.0/Npgsql.dll": {}
+          "lib/net5.0/Npgsql.dll": {}
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/3.1.4": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.4",
-          "Npgsql": "4.1.3.1"
+          "Microsoft.EntityFrameworkCore": "5.0.1",
+          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.1",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.1",
+          "Npgsql": "5.0.1.1"
         },
         "compile": {
-          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
+          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design/1.1.0": {
@@ -1438,59 +1447,59 @@
     }
   },
   "libraries": {
-    "Microsoft.EntityFrameworkCore/5.0.0": {
-      "sha512": "QJk6pwN5wCriRdaNXQQxifeDNYephqqDMSXAQFX1nZjHwz/hChD0kDwklX20FexN9IAwQftepMbglcjwTX3l4Q==",
+    "Microsoft.EntityFrameworkCore/5.0.1": {
+      "sha512": "bz4WSbLqNw9gGeHw8VAzCcX6TVDLAD/SZRii9G7XSsqAdLL2J8pVINemXfRUt5IHlC1yWC5To4PzAUWJJZCbYw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/5.0.0",
+      "path": "microsoft.entityframeworkcore/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.5.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/5.0.0": {
-      "sha512": "PCDiskNvB+1rs+d3ET0Itm3mPj6+CpFO7V1nPXfVL6ipS6+27vKs9mnEP4C8vTr2BhSpyvKQetp4Z0ktrqv+wg==",
+    "Microsoft.EntityFrameworkCore.Abstractions/5.0.1": {
+      "sha512": "BUc5mbxnraD5mfpOUHaluHYV1Umqpv7VzsXwnVEvmDBtoLZ2jo+y1ldv5Xq6nab0STJQEX8YaZdbJmTIZUHwtQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/5.0.0",
+      "path": "microsoft.entityframeworkcore.abstractions/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.5.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/5.0.0": {
-      "sha512": "l1c/1ge8ymXgLqtstTyX3PZOLRuFo1jn0FQ9H4ag3Bwz70KTMyEOXwkKBZZ1gDlCibETrooflMis8wvvXFh5YQ==",
+    "Microsoft.EntityFrameworkCore.Analyzers/5.0.1": {
+      "sha512": "3WjoY8JlB7m/VApD5A4JlntFLGV2C1qOV9fiPZQNBwlNnNAVZemDVZAksN1yBVMoPqw87VaogbP5sxgptCwTFA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/5.0.0",
+      "path": "microsoft.entityframeworkcore.analyzers/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.5.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.5.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/5.0.0": {
-      "sha512": "UMhoo0t3eii73AUwsvbGpYMGXS0ga/uA/cukgJza+IJ4EtcuNfdhGsA3emzf9nYpQ7urJzWzU6VOfG59h935Ag==",
+    "Microsoft.EntityFrameworkCore.Relational/5.0.1": {
+      "sha512": "ItzAKJH2KGeYVo9csLQz0D7TjJGEG9N5wd/HVF2E+RXxOZuTKZUBO7Ft+SntVvx7DOX7tKLQOleXutf0Vnds1Q==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/5.0.0",
+      "path": "microsoft.entityframeworkcore.relational/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.5.0.1.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -1569,10 +1578,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/5.0.0": {
-      "sha512": "Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+    "Microsoft.Extensions.DependencyInjection/5.0.1": {
+      "sha512": "//mDNrYeiJ0eh/awFhDFJQzkRVra/njU5Y4fyK7X29g5HScrzbUkKOKlyTtygthcGFt4zNC8G5CFCjb/oizomA==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "path": "microsoft.extensions.dependencyinjection/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1587,7 +1596,7 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1777,35 +1786,66 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Npgsql/4.1.5": {
-      "sha512": "juDlNse+SKfXRP0VSgpJkpdCcaVLZt8m37EHdRX+8hw+GG69Eat1Y0MdEfl+oetdOnf9E133GjIDEjg9AF6HSQ==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "npgsql/4.1.5",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net461/Npgsql.dll",
-        "lib/net461/Npgsql.xml",
-        "lib/netcoreapp3.0/Npgsql.dll",
-        "lib/netcoreapp3.0/Npgsql.xml",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "Npgsql/5.0.1.1": {
+      "sha512": "vblKEzmyX/RkrC8ykx4yaiEOiURovDSnEw93KkY6nKDRJRLES95OM6hN4aYOoHfwkzPgENSFu1JMbMenoL1k9w==",
+      "type": "package",
+      "path": "npgsql/5.0.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
         "lib/netstandard2.0/Npgsql.dll",
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.4.1.5.nupkg.sha512",
+        "npgsql.5.0.1.1.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/3.1.4": {
-      "sha512": "T+BIWO+ceje5d52/sOwwqaU/F4Rm2jAWx5qA3+pUGbzY/ZXG0QbHQsyjyg0k8aef6JTq8FRk3FtRWkocsa1QWQ==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.1": {
+      "sha512": "sT10NTM33qJqtfUOX3v+XV4CLT831EjaibWgU7wYPjFjm4O0JvQL46DVN9NadXAumBRTe5sjTATJFWoC5CB6lg==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/3.1.4",
+      "path": "npgsql.entityframeworkcore.postgresql/5.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/netstandard2.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "npgsql.entityframeworkcore.postgresql.3.1.4.nupkg.sha512",
+        "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+        "npgsql.entityframeworkcore.postgresql.5.0.1.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
@@ -5103,11 +5143,12 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Microsoft.EntityFrameworkCore >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.0",
-      "Microsoft.EntityFrameworkCore.Relational >= 5.0.0",
-      "Npgsql >= 4.1.5",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 3.1.4",
+      "Microsoft.EntityFrameworkCore >= 5.0.1",
+      "Microsoft.EntityFrameworkCore.Abstractions >= 5.0.1",
+      "Microsoft.EntityFrameworkCore.Relational >= 5.0.1",
+      "Newtonsoft.Json >= 12.0.3",
+      "Npgsql >= 5.0.1.1",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.1",
       "Npgsql.EntityFrameworkCore.PostgreSQL.Design >= 1.1.0",
       "PlumbingProps >= 1.0.0"
     ]
@@ -5165,23 +5206,27 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Abstractions": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.1, )"
           },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
-            "version": "[5.0.0, )"
+            "version": "[5.0.1, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           },
           "Npgsql": {
             "target": "Package",
-            "version": "[4.1.5, )"
+            "version": "[5.0.1.1, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[3.1.4, )"
+            "version": "[5.0.1, )"
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
             "target": "Package",

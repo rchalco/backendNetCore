@@ -4,6 +4,101 @@
     "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj": {}
   },
   "projects": {
+    "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj",
+        "projectName": "CoreAccesLayer",
+        "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj": {
+                "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[5.0.1.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +107,71 @@
         "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
         "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\home\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj": {
+                "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj",
+        "projectName": "PlumbingProps",
+        "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj",
+        "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
+        "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

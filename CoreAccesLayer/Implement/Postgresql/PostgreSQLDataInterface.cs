@@ -1,6 +1,5 @@
-﻿using CoreAccesLayer.Interface;
-using DataAccess.Core.Base;
-using DataAccess.Core.Decorates;
+﻿using CoreAccesLayer.Implement.Postgresql.Decorates;
+using CoreAccesLayer.Interface;
 using Npgsql;
 using NpgsqlTypes;
 using System;
@@ -68,7 +67,7 @@ namespace CoreAccesLayer.Implement.Postgresql
             gConnection.TypeMapper.MapComposite<T>(name_type);
             return resul;
         }
-        public List<T> GetListByProcedure<T>(string nameProcedure, params object[] parameters) where T : new()
+        public List<T> GetListByProcedure<T>(string nameProcedure, params object[] parameters) where T : class, new()
         {
             List<T> vListado = new List<T>();
 
@@ -296,7 +295,7 @@ namespace CoreAccesLayer.Implement.Postgresql
             }
         }
 
-        private T FactoryEntity<T>(ref IDataReader pDataReader) where T : new()
+        private T FactoryEntity<T>(ref IDataReader pDataReader) where T : class, new()
         {
             T vEntity = new T();
             var vPropiedades = vEntity.GetType().GetProperties();
@@ -305,7 +304,7 @@ namespace CoreAccesLayer.Implement.Postgresql
             {
                 PropertyInfo[] propiedades = new PropertyInfo[vEntity.GetType().GetProperties().Count()];
                 vEntity.GetType().GetProperties().CopyTo(propiedades, 0);
-                propiedades = propiedades.Where(a => !typeof(Entity).GetProperties().Any(b => b.Name == a.Name)).ToArray();
+                //propiedades = propiedades.Where(a => !typeof(Entity).GetProperties().Any(b => b.Name == a.Name)).ToArray();                
                 DataTable dtSchema = pDataReader.GetSchemaTable();
 
                 foreach (PropertyInfo item in propiedades)

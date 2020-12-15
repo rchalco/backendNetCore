@@ -1,4 +1,4 @@
-﻿using DataAccess.Core.Base;
+﻿using CoreAccesLayer.Wraper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,9 +9,9 @@ namespace CoreAccesLayer.Interface
 {
     public interface IRepository
     {
-        bool SaveObject<T>(T entity) where T : Entity;
-        bool CallProcedure<T>(string nameProcedure, params object[] parameters) where T : class;
-        List<T> GetDataByProcedure<T>(string nameProcedure, params object[] parameters) where T : new();
+        bool SaveObject<T>(Entity<T> entity) where T : class, new();
+        bool CallProcedure<T>(string nameProcedure, params object[] parameters) where T : class, new();
+        List<T> GetDataByProcedure<T>(string nameProcedure, params object[] parameters) where T : class, new();
 
     }
 }

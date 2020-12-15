@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Core.Decorates
+namespace CoreAccesLayer.Implement.Postgresql.Decorates
 {
     [DataContract]
     public class FieldValidation : Attribute

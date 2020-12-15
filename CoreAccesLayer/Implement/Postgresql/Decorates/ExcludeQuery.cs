@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace DataAccess.Core.Decorates
+namespace CoreAccesLayer.Implement.Postgresql.Decorates
 {
     [DataContract]
     public class ExcludeQuery : Attribute

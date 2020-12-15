@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Modulo01\" />
     <Folder Include="Modulo02\" />
+    <Folder Include="Wraper\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreAccesLayer\CoreAccesLayer.csproj" />
   </ItemGroup>
 
 </Project>
