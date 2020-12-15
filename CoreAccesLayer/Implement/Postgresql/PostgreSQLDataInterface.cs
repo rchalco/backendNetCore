@@ -296,7 +296,7 @@ namespace CoreAccesLayer.Implement.Postgresql
             }
         }
 
-        private T FactoryEntity<T>(ref IDataReader pDataReader) where T : Entity, new()
+        private T FactoryEntity<T>(ref IDataReader pDataReader) where T : new()
         {
             T vEntity = new T();
             var vPropiedades = vEntity.GetType().GetProperties();

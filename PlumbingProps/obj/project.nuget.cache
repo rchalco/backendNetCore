@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p6L3tn4TLiB+olDSQpJZwor4lp96dk4hwdmlxi8N3lQiAIceqigyDYn+x+W5qCG69Pt7IsYFRPR+LqD9I1uIYw==",
+  "dgSpecHash": "tSA0TB3dveGV+KOmMQV1yHXBXHhSUKsf0BSg5TRUjnR4VX/FbU6MU0p/w9BBd9VcOCSVIeOJ0NaRoqzyegcqow==",
   "success": true,
-  "projectFilePath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\PlumbingProps\\PlumbingProps.csproj",
+  "projectFilePath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

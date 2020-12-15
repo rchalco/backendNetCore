@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/EBYHNL4eA97omrExJivk8hDf20bR4fs/c07HmcZbVYD5f2a54fYF7nfnp5plZCcFz5Qc5D0QSO3QHoDOBX5Cw==",
+  "dgSpecHash": "z9zeCepqpQPfHl74VOximOjyU4N566bZEtwTq/PP7c9Cl6xCilZGsHtAfxi0qoLZXFuzS2dAqgBobWpA8urQDQ==",
   "success": true,
-  "projectFilePath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\GrpcService1\\GrpcService1.csproj",
+  "projectFilePath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\GrpcService1\\GrpcService1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\home\\.nuget\\packages\\google.protobuf\\3.11.2\\google.protobuf.3.11.2.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\grpc.aspnetcore\\2.27.0\\grpc.aspnetcore.2.27.0.nupkg.sha512",

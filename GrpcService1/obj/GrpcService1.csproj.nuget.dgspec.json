@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\GrpcService1\\GrpcService1.csproj": {}
+    "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\GrpcService1\\GrpcService1.csproj": {}
   },
   "projects": {
-    "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\GrpcService1\\GrpcService1.csproj": {
+    "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\GrpcService1\\GrpcService1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\GrpcService1\\GrpcService1.csproj",
+        "projectUniqueName": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\GrpcService1\\GrpcService1.csproj",
         "projectName": "GrpcService1",
-        "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\GrpcService1\\GrpcService1.csproj",
+        "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\GrpcService1\\GrpcService1.csproj",
         "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-        "outputPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\GrpcService1\\obj\\",
+        "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\GrpcService1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

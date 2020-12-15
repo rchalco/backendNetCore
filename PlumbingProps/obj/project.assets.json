@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\PlumbingProps\\PlumbingProps.csproj",
+      "projectUniqueName": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj",
       "projectName": "PlumbingProps",
-      "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\PlumbingProps\\PlumbingProps.csproj",
+      "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj",
       "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-      "outputPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\PlumbingProps\\obj\\",
+      "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

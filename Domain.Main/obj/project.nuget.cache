@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N75ZPHUSFFhYbsmJjcvo25ukW+lgD93vWH2MSN+8NPz5QlwgF0b9oZEDanFmE9AWxWyTssj2U3qTACxoY2jyrA==",
+  "dgSpecHash": "S7x6QagSIM8egKNREH/SOZVxZUw/JxosJNICaLPzGXNMfyxZ0tE2AOuXO0cn3f/iGQHOzDzAApdP6DsBLUFEgQ==",
   "success": true,
-  "projectFilePath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Domain.Main\\Domain.Main.csproj",
+  "projectFilePath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

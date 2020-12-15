@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Domain.Main\\Domain.Main.csproj",
+      "projectUniqueName": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj",
       "projectName": "Domain.Main",
-      "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Domain.Main\\Domain.Main.csproj",
+      "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj",
       "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-      "outputPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Domain.Main\\obj\\",
+      "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

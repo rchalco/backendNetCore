@@ -5154,11 +5154,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Business.Main\\Business.Main.csproj",
+      "projectUniqueName": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Business.Main\\Business.Main.csproj",
       "projectName": "Business.Main",
-      "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Business.Main\\Business.Main.csproj",
+      "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Business.Main\\Business.Main.csproj",
       "packagesPath": "C:\\Users\\home\\.nuget\\packages\\",
-      "outputPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Business.Main\\obj\\",
+      "outputPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Business.Main\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5182,14 +5182,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\CoreAccesLayer\\CoreAccesLayer.csproj": {
-              "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\CoreAccesLayer\\CoreAccesLayer.csproj"
+            "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj": {
+              "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj"
             },
-            "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Domain.Main\\Domain.Main.csproj": {
-              "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\Domain.Main\\Domain.Main.csproj"
+            "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj": {
+              "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\Domain.Main\\Domain.Main.csproj"
             },
-            "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\PlumbingProps\\PlumbingProps.csproj": {
-              "projectPath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\PlumbingProps\\PlumbingProps.csproj"
+            "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj": {
+              "projectPath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj"
             }
           }
         }

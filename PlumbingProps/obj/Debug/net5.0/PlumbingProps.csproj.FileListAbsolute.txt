@@ -10,3 +10,15 @@ E:\PROYECTOS\BaseGround .NetCoreArquitectura\PlumbingProps\obj\Debug\net5.0\Plum
 E:\PROYECTOS\BaseGround .NetCoreArquitectura\PlumbingProps\obj\Debug\net5.0\PlumbingProps.dll
 E:\PROYECTOS\BaseGround .NetCoreArquitectura\PlumbingProps\obj\Debug\net5.0\ref\PlumbingProps.dll
 E:\PROYECTOS\BaseGround .NetCoreArquitectura\PlumbingProps\obj\Debug\net5.0\PlumbingProps.pdb
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\bin\Debug\net5.0\PlumbingProps.deps.json
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\bin\Debug\net5.0\PlumbingProps.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\bin\Debug\net5.0\ref\PlumbingProps.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\bin\Debug\net5.0\PlumbingProps.pdb
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.csprojAssemblyReference.cache
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.GeneratedMSBuildEditorConfig.editorconfig
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.AssemblyInfoInputs.cache
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.AssemblyInfo.cs
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.csproj.CoreCompileInputs.cache
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\ref\PlumbingProps.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\PlumbingProps\obj\Debug\net5.0\PlumbingProps.pdb

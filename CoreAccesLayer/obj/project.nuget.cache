@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8iSqDStg11rqNhygI1E3k+XstuujQ+61b7lIM9q+JJrCy4y06RuywXtSsg4pHPxKc+qVvjJ7F4TZ5xLg5iHiRg==",
+  "dgSpecHash": "Te8NHRWxCrIdpLX3yC3TFtsr03R//ZU3uR/J7h7Fkp9t2F9XkKwPLZdUCV48lHqI8H7ULlvASiXquw/r2pWqUg==",
   "success": true,
-  "projectFilePath": "E:\\PROYECTOS\\BaseGround .NetCoreArquitectura\\CoreAccesLayer\\CoreAccesLayer.csproj",
+  "projectFilePath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\CoreAccesLayer\\CoreAccesLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\home\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0\\microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "C:\\Users\\home\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
