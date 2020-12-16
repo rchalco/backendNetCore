@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "tSA0TB3dveGV+KOmMQV1yHXBXHhSUKsf0BSg5TRUjnR4VX/FbU6MU0p/w9BBd9VcOCSVIeOJ0NaRoqzyegcqow==",
+  "dgSpecHash": "Fj8xc9eU76xuzKp40hMloFaFIb7+Wehf1L39ZqLPlH7qQXmmAx6NYfd9KGtIUVc/DCNHHkFTmC+0aj5++Qrllg==",
   "success": true,
   "projectFilePath": "E:\\PROYECTOS\\NetCoreBackendArq\\backendNetCore\\PlumbingProps\\PlumbingProps.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.configuration\\5.0.0\\microsoft.extensions.configuration.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\5.0.0\\microsoft.extensions.configuration.fileextensions.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.configuration.json\\5.0.0\\microsoft.extensions.configuration.json.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\5.0.0\\microsoft.extensions.fileproviders.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\5.0.0\\microsoft.extensions.fileproviders.physical.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\5.0.0\\microsoft.extensions.filesystemglobbing.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\home\\.nuget\\packages\\nlog\\4.7.6\\nlog.4.7.6.nupkg.sha512"
+  ],
   "logs": []
 }

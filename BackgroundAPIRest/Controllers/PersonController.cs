@@ -4,6 +4,7 @@ using Domain.Main.Modulo01;
 using Domain.Main.Wraper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using PlumbingProps.Logger;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,14 +25,15 @@ namespace BackgroundAPIRest.Controllers
         [HttpGet("GetPersonsTest")]
         public ResponseQuery<PersonReport> GetPersonsTest(string name)
         {
+            Binnacle.ProcessEvent(new Event { category = Event.Category.Information, description = $"Metodo GetPersonsTest llamdo con parametro {name}" });
             PersonManager personManager = new PersonManager();
-            return personManager.GetPersons(name);            
+            return personManager.GetPersons(name);
         }
 
         [HttpPost("PersonRegisterTest")]
         public ResponseObject<Person> PersonRegisterTest(Person person)
         {
-            PersonManager personManager = new PersonManager();            
+            PersonManager personManager = new PersonManager();
             return personManager.RegisterPerson(person);
         }
 

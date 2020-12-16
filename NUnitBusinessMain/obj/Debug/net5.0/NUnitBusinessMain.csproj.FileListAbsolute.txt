@@ -121,3 +121,4 @@ E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0\ref\NUnitBusinessMain.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0\NUnitBusinessMain.pdb
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0\NUnitBusinessMain.genruntimeconfig.cache
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\NLog.dll

@@ -13,11 +13,13 @@ namespace CoreAccesLayer.Implement
     public class PostgreSQLRepository<TDbContext> : IRepository
         where TDbContext : DbContext, new()
     {
-        PostgreSQLDataInterface postgreSQLDataInterface = new PostgreSQLDataInterface
-        {
-            ConnectionString = "Host=localhost;Database=sample_db;Username=postgres;Password=admin123"
-        };
+        PostgreSQLDataInterface postgreSQLDataInterface = new PostgreSQLDataInterface();
         TDbContext _dbContext = new TDbContext();
+
+        public PostgreSQLRepository()
+        {
+            postgreSQLDataInterface.ConnectionString = _dbContext.Database.GetDbConnection().ConnectionString;
+        }
 
         public bool CallProcedure<T>(string nameProcedure, params object[] parameters) where T : class, new()
         {

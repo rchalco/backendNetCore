@@ -1,3 +1,4 @@
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\NLog.config
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\appsettings.Development.json
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\appsettings.json
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\BackgroundAPIRest.exe
@@ -13,6 +14,7 @@ E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\NLog.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Npgsql.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
