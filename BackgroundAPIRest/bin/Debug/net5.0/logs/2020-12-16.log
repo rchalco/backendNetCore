@@ -14,3 +14,14 @@
    at CoreAccesLayer.Implement.Postgresql.PostgreSQLDataInterface.GetListByProcedure[T](String nameProcedure, Object[] parameters) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLDataInterface.cs:line 80
    at CoreAccesLayer.Implement.PostgreSQLRepository`1.GetDataByProcedure[T](String nameProcedure, Object[] parameters) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLRepository.cs:line 32
    at Business.Main.Modulo01.PersonManager.GetPersons(String name) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\Modulo01\PersonManager.cs:line 90
+2020-12-16 00:52:21.4974 INFO Metodo GetPersonsTest llamdo con parametro r
+2020-12-16 00:52:22.5116 ERROR 28P01: la autentificaci�n password fall� para el usuario �postgres� stactrace ->    at CoreAccesLayer.Implement.Postgresql.PostgreSQLDataInterface.OpenConnection() in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLDataInterface.cs:line 244
+   at CoreAccesLayer.Implement.Postgresql.PostgreSQLDataInterface.GetListByProcedure[T](String nameProcedure, Object[] parameters) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLDataInterface.cs:line 80
+   at CoreAccesLayer.Implement.PostgreSQLRepository`1.GetDataByProcedure[T](String nameProcedure, Object[] parameters) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLRepository.cs:line 32
+   at Business.Main.Modulo01.PersonManager.GetPersons(String name) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\Modulo01\PersonManager.cs:line 90
+2020-12-16 00:52:22.5116 ERROR 28P01: la autentificaci�n password fall� para el usuario �postgres� stactrace ->    at CoreAccesLayer.Implement.Postgresql.PostgreSQLDataInterface.OpenConnection() in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLDataInterface.cs:line 244
+   at CoreAccesLayer.Implement.Postgresql.PostgreSQLDataInterface.GetListByProcedure[T](String nameProcedure, Object[] parameters) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLDataInterface.cs:line 80
+   at CoreAccesLayer.Implement.PostgreSQLRepository`1.GetDataByProcedure[T](String nameProcedure, Object[] parameters) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\CoreAccesLayer\Implement\Postgresql\PostgreSQLRepository.cs:line 32
+   at Business.Main.Modulo01.PersonManager.GetPersons(String name) in E:\PROYECTOS\NetCoreBackendArq\backendNetCore\Business.Main\Modulo01\PersonManager.cs:line 90
+2020-12-16 00:53:22.4047 INFO Metodo GetPersonsTest llamdo con parametro ruben
+2020-12-16 01:00:04.0059 INFO Metodo GetPersonsTest llamdo con parametro %
