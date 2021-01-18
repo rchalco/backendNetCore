@@ -40,7 +40,7 @@ namespace Business.Main.Modulo01
                 {
                     entity.stateEntity = StateEntity.modify;
                 }
-                repository.SaveObject<Person>(entity);
+                repositoryPostreSql.SaveObject<Person>(entity);
                 response.State = ResponseType.Success;
                 response.Message = "La persona fue registrada correctamente";
                 response.Object = person;
@@ -68,7 +68,7 @@ namespace Business.Main.Modulo01
                     return response;
                 }
                 Entity<Person> entity = new Entity<Person> { EntityDB = person, stateEntity = StateEntity.remove };
-                repository.SaveObject<Person>(entity);
+                repositoryPostreSql.SaveObject<Person>(entity);
                 response.State = ResponseType.Success;
                 response.Message = "La persona fue eliminada correctamente";
                 response.Object = person;
@@ -87,7 +87,7 @@ namespace Business.Main.Modulo01
             try
             {
                 //Logica del negocio
-                response.ListEntities =  repository.GetDataByProcedure<PersonReport>("\"getPersons\"", name);
+                response.ListEntities =  repositoryPostreSql.GetDataByProcedure<PersonReport>("\"getPersons\"", name);
                 response.State = ResponseType.Success;
                 response.Message = "Personas obtenidas correctamente";                
             }

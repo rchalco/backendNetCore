@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Modulo02\" />
     <Folder Include="Wraper\" />
   </ItemGroup>
 

@@ -41,3 +41,6 @@ E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\obj\Debug\net5.0
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\obj\Debug\net5.0\ref\BackgroundAPIRest.dll
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\obj\Debug\net5.0\BackgroundAPIRest.pdb
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\obj\Debug\net5.0\BackgroundAPIRest.genruntimeconfig.cache
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\MySqlConnector.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\BackgroundAPIRest\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll

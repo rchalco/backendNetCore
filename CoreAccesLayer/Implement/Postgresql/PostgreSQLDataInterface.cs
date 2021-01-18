@@ -12,7 +12,7 @@ using System.Text;
 
 namespace CoreAccesLayer.Implement.Postgresql
 {
-    public class PostgreSQLDataInterface
+    internal class PostgreSQLDataInterface
     {
         public string ConnectionString { get; set; }
         private NpgsqlCommand gCommand { get; set; }

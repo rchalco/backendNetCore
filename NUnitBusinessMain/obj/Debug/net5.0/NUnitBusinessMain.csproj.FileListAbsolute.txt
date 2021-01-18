@@ -122,3 +122,12 @@ E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0\NUnitBusinessMain.pdb
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\obj\Debug\net5.0\NUnitBusinessMain.genruntimeconfig.cache
 E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\NLog.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Microsoft.Extensions.Configuration.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Microsoft.Extensions.Configuration.Json.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Physical.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\MySqlConnector.dll
+E:\PROYECTOS\NetCoreBackendArq\backendNetCore\NUnitBusinessMain\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
